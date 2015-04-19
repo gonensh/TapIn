@@ -7,6 +7,6 @@
     <string name="nfc_hello">Hello NFC!</string>
     <string name="go_btn">Go!</string>
     <string name="choose_event">Choose your event</string>
-
+    <string name="explanation">Explanation</string>
 
 </resources>
