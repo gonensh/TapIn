@@ -24,7 +24,7 @@ public class NFCActivity extends ActionBarActivity {
 
         Intent originIntent = getIntent();
 
-        Toast.makeText(this, originIntent.getStringExtra("event_name"),Toast.LENGTH_LONG);
+        Toast.makeText(this, originIntent.getStringExtra("event_name"),Toast.LENGTH_LONG).show();
         
         mTextView = (TextView) findViewById(R.id.textView_explanation);
 
