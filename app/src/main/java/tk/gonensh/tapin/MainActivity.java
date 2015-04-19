@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
 import tk.gonensh.tapin.NFCActivity;
 
 
@@ -24,7 +26,11 @@ public class MainActivity extends ActionBarActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, NFCActivity.class));
+                EditText et1 = (EditText) findViewById(R.id.text_input);
+                String event_name = et1.getText().toString();
+                Intent intent1 = new Intent(MainActivity.this, NFCActivity.class);
+                intent1.putExtra("event_name",event_name);
+                startActivity(intent1);
             }
         });
 

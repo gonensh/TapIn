@@ -34,10 +34,16 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/text_input"
         android:layout_below="@+id/choose_event"
         android:layout_alignStart="@+id/choose_event"
         android:layout_marginTop="24dp"
         android:layout_alignEnd="@+id/choose_event" />
+
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
 
 </RelativeLayout>
