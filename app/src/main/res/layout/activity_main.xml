@@ -8,19 +8,36 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/hello_world1"
+        android:layout_marginTop="62dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+id/go_btn"
+        android:text="@string/go_btn"
         android:id="@+id/NFCbutton"
+        android:layout_marginTop="86dp"
+        android:clickable="true"
+        android:layout_below="@+id/choose_event"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_event"
+        android:id="@+id/choose_event"
         android:layout_below="@+id/hello_world1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:clickable="true"
-        />
+        android:layout_marginTop="31dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/choose_event"
+        android:layout_alignStart="@+id/choose_event"
+        android:layout_marginTop="24dp"
+        android:layout_alignEnd="@+id/choose_event" />
 
 </RelativeLayout>
