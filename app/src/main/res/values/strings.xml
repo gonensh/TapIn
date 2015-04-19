@@ -7,6 +7,8 @@
     <string name="nfc_hello">Hello NFC!</string>
     <string name="go_btn">Go!</string>
     <string name="choose_event">Choose your event</string>
+    <string name="new_user">Create User</string>
+
     <string name="explanation">Explanation</string>
     <string name="tapin_title">Tap In!</string>
 </resources>
