@@ -18,8 +18,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2088f03e-4667-4c02-a0e1-7f35fc650b5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TapIn.iws" />
@@ -1832,7 +1830,11 @@
       <created>1429403611607</created>
       <updated>1429403611607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added &quot;choose an event&quot; and a text field for input">
+      <created>1429404028595</created>
+      <updated>1429404028595</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1857,7 +1859,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1909,7 +1911,8 @@
     <MESSAGE value="Added NFC Activity" />
     <MESSAGE value="functional NFC button" />
     <MESSAGE value="Changed main message to &quot;Welcome&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed main message to &quot;Welcome&quot;" />
+    <MESSAGE value="Added &quot;choose an event&quot; and a text field for input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;choose an event&quot; and a text field for input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
