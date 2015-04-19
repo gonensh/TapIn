@@ -15,4 +15,6 @@
     <string name="firebase_button">Go!</string>
     <string name="title_activity_create_user">create_user</string>
     <string name="title_activity_success">success</string>
+    <string name="success">Success!</string>
+    <string name="success_button">Scan next..</string>
 </resources>

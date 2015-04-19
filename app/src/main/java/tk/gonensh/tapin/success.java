@@ -1,9 +1,13 @@
 package tk.gonensh.tapin;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 
 public class success extends ActionBarActivity {
@@ -12,6 +16,17 @@ public class success extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success);
+
+        Button success = (Button) findViewById(R.id.success_button);
+
+        success.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent to_scan = new Intent(success.this, MainActivity.class);
+                startActivity(to_scan);
+            }
+        });
+
     }
 
 
