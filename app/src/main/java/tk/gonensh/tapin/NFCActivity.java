@@ -1,17 +1,54 @@
 package tk.gonensh.tapin;
 
+import android.content.Intent;
+import android.nfc.NfcAdapter;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class NFCActivity extends ActionBarActivity {
+
+    public static final String TAG = "NfcDemo";
+
+    private TextView mTextView;
+    private NfcAdapter mNfcAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nfc);
+
+        Intent originIntent = getIntent();
+
+        Toast.makeText(this, originIntent.getStringExtra("event_name"),Toast.LENGTH_LONG);
+        
+        mTextView = (TextView) findViewById(R.id.textView_explanation);
+
+        mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
+
+        if (mNfcAdapter == null) {
+            // Stop here, we definitely need NFC
+            Toast.makeText(this, "This device doesn't support NFC.", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+
+        }
+
+        if (!mNfcAdapter.isEnabled()) {
+            mTextView.setText("NFC is disabled.");
+        } else {
+            mTextView.setText(R.string.explanation);
+        }
+
+        handleIntent(getIntent());
+    }
+
+    private void handleIntent(Intent intent) {
+        // TODO: handle Intent
     }
 
 

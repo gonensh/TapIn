@@ -2,32 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jar="/home/gonen/AndroidStudioProjects/TapIn/app/libs/firebase-client-android-2.2.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\pre-dexed\debug\classes-055fb6d6a6bd506a3d4097e07be9eeabf411aa4d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Roman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-3f277a76ad0fa0b4472677170261ead73bb7ad35.jar" />
-    </item>
-    <item
-        jar="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-fd2beafb0a1702b9723681f9b1dd5704615a8c7c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Roman\AndroidStudioProjects\TapIn\app\build\intermediates\pre-dexed\debug\classes-973c659dc58159f076cc46b9fb23b4711a129354.jar" />
+        sha1="bbe51fdbd1972d6f1ea24e9f6d1b66ee58ae134f">
+        <dex dex="/home/gonen/AndroidStudioProjects/TapIn/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.2.3-2afcd185dd89933131fa42b626aab52374209cce.jar" />
     </item>
 
 </items>
