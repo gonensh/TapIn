@@ -1690,7 +1690,11 @@
       <created>1429402272584</created>
       <updated>1429402272584</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="functional NFC button">
+      <created>1429402872457</created>
+      <updated>1429402872457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
