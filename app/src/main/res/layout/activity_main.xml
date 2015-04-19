@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GO!"
+        android:text="@+id/go_btn"
         android:id="@+id/NFCbutton"
         android:layout_below="@+id/hello_world1"
         android:layout_centerHorizontal="true"
