@@ -11,4 +11,8 @@
 
     <string name="explanation">Explanation</string>
     <string name="tapin_title">Tap In!</string>
+    <string name="name">Name:</string>
+    <string name="firebase_button">Go!</string>
+    <string name="title_activity_create_user">create_user</string>
+    <string name="title_activity_success">success</string>
 </resources>
